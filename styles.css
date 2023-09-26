@@ -12,34 +12,15 @@ p:nth-child(2){
 p:last-child{
 	color:red;
 }
-
-li:nth-child(1){
-	background:white;
-	width:50%;
-	padding:10px;
-	font-size:22px;
-}
-li:nth-child(2){
+.a{
 	background:grey;
 	width:50%;
 	padding:10px;
 	font-size:22px;
 }
-li:nth-child(3){
+li:nth-child(odd){
+	background:white;
+}
+li:nth-last-of-type(3){
 	background:pink;
-	width:50%;
-	padding:10px;
-	font-size:22px;
-}
-li:nth-child(4){
-	background:grey;
-	width:50%;
-	padding:10px;
-	font-size:22px;
-}
-li:nth-child(5){
-	background:white;
-	width:50%;
-	padding:10px;
-	font-size:22px;
 }
