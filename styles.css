@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+:root{
+	background:rgb(135, 206, 235);
+}
+p:first-child{
+	color:white;
+	background:black;
+}
+p:nth-child(2){
+	color:black;
+}
+p:last-child{
+	color:red;
+}
+.a{
+	width:50%;
+	font-size:22px;
+}
