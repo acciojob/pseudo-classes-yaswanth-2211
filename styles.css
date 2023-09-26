@@ -13,10 +13,12 @@ p:last-child{
 	color:red;
 }
 .a{
-	background:grey;
 	width:50%;
 	padding:10px;
 	font-size:22px;
+}
+li:nth-child(even){
+	background:grey;
 }
 li:nth-child(odd){
 	background:white;
