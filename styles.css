@@ -12,7 +12,33 @@ p:nth-child(2){
 p:last-child{
 	color:red;
 }
-.a{
+
+li:nth-child(1){
+	background:white;
+	width:50%;
+	padding:10px;
+	font-size:22px;
+}
+li:nth-child(2){
+	background:grey;
+	width:50%;
+	padding:10px;
+	font-size:22px;
+}
+li:nth-child(3){
+	background:pink;
+	width:50%;
+	padding:10px;
+	font-size:22px;
+}
+li:nth-child(4){
+	background:grey;
+	width:50%;
+	padding:10px;
+	font-size:22px;
+}
+li:nth-child(5){
+	background:white;
 	width:50%;
 	padding:10px;
 	font-size:22px;
